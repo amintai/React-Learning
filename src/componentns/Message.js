@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Message extends React.Component {
-    constructor(){
+    constructor() {
         // this.state ===> to this.setState
         super()
         this.state= {

@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Greet = (props) => {
-    return <h1>Hello {props.name} aka {props.heroName}</h1>
+export const Greet = ({name,heroName}) => {
+    return (
+        <div>
+            <h1>Hello {name} aka {heroName}</h1>
+        </div>
+    )
 }
 
 
