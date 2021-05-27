@@ -7,28 +7,18 @@ import React, { Component } from 'react'
         this.state = {
             message : 'Hello'
         }
-        this.changeMessage = this.changeMessage.bind(this)
      }
      changeMessage(){
          this.setState({
              message:'bye'
          })
-        console.log('work',this)
-    }
-
-    clickHand = () => {
-        this.setState({
-            message : 'Arrow!'
-        })
+        console.log('work')
     }
     render() {
         return (
             <div>
                 <div>{this.state.message}</div>
-                <button onClick={this.changeMessage.bind(this)}>Click</button>
-                <button onClick={()=> this.changeMessage()}>Click</button>
                 <button onClick={this.changeMessage}>Click</button>
-                <button onClick={this.clickHand}>Click</button>
             </div>
         )
     }
