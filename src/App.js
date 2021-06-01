@@ -1,7 +1,7 @@
 import React from "react";
-import AppStyles from "./componentns/AppStyles";
+// import AppStyles from "./componentns/AppStyles";
 // import Inline from "./componentns/Inline";
-
+import Form from "./componentns/Form";
 // import Stylesheet from "./componentns/Stylesheet";
 // import NameList from "./componentns/NameList";
 // import UserGreeting from "./componentns/UserGreeting";
@@ -16,9 +16,10 @@ import AppStyles from "./componentns/AppStyles";
 
 
 class App extends React.Component {
+  
   render(){
     return (
-      <AppStyles />
+      <Form />
    
       )}
   }
