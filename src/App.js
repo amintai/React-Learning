@@ -1,7 +1,14 @@
 import React from "react";
+import Regularcomp from "./componentns/RegularComp";
+// import Parentcomp from "./componentns/Parentcomp";
+// import PureComp from "./componentns/PureComp";
+// import Table from "./componentns/Table";
+// import FragmentDemo from "./componentns/FragmentDemo";
+// import LifecycleA from "./componentns/LifecycleA";
+// import ContactCard from "./componentns/ContactCard";
 // import AppStyles from "./componentns/AppStyles";
 // import Inline from "./componentns/Inline";
-import Form from "./componentns/Form";
+// import Form from "./componentns/Form";
 // import Stylesheet from "./componentns/Stylesheet";
 // import NameList from "./componentns/NameList";
 // import UserGreeting from "./componentns/UserGreeting";
@@ -18,12 +25,14 @@ import Form from "./componentns/Form";
 class App extends React.Component {
   
   render(){
+
     return (
-      <Form />
-   
-      )}
+
+     <Regularcomp />
+      
+    )
   }
       
-      
+} 
     
 export default App;
